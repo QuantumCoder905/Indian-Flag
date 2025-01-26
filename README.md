@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Flag</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .flag {
+            width: 600px;
+            height: 400px;
+            border: 1px solid #000;
+            position: relative;
+        }
+
+        .stripe {
+            width: 100%;
+            height: 33.33%;
+            position: absolute;
+        }
+
+        .saffron {
+            top: 0;
+            background-color: #FF9933;
+        }
+
+        .white {
+            top: 33.33%;
+            background-color: #FFFFFF;
+        }
+
+        .green {
+            top: 66.66%;
+            background-color: #138808;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div class="stripe saffron"></div>
+        <div class="stripe white"></div>
+        <div class="stripe green"></div>
+    </div>
+</body>
+</html>
